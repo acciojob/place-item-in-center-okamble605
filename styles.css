@@ -1,2 +1,19 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Holder styling */
+.holder {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Ensure no extra margin around the holder */
+  padding: 0; /* Ensure no padding inside the holder */
+  background-color: #f0f0f0; /* Optional: Background color for visualization */
+}
+
+/* Item-1 styling */
+.item-1 {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  background-color: red; /* Red background color */
+}
